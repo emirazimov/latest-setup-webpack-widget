@@ -1,0 +1,21 @@
+.passenger input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none !important;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
+::-webkit-scrollbar {
+  width: 3px;
+  height: 10px;
+  top: 100px;
+}
+::-webkit-scrollbar:hover {
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(149, 149, 149);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c5cde3;
+}

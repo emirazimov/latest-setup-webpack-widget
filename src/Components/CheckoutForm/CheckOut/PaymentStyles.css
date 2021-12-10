@@ -1,0 +1,31 @@
+.credit-card-input-by-bookinglane {
+  width: 100%;
+  background-color: black;
+  border: none;
+  outline: none;
+  color: white;
+  border-bottom: 2px solid #ac8159;
+  height: 42px;
+  padding-left: 12px;
+  transition: 200ms;
+  font-size: 15px;
+  border-radius: 0;
+}
+.credit-card-input-by-bookinglane:hover {
+  border-bottom: 2px solid white;
+  transition: 200ms;
+}
+.credit-card-input-by-bookinglane::placeholder {
+  color: grey;
+  opacity: 1;
+  font-size: 14px;
+}
+.credit-card-input-by-bookinglane:-webkit-autofill {
+  height: 0px;
+  border: none;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0 0 1000px transparent inset;
+  -webkit-text-fill-color: white;
+  background-color: transparent !important;
+  background-clip: content-box !important;
+}

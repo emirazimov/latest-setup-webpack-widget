@@ -1,0 +1,28 @@
+/* .plusIcon:hover {
+  background-color: white;
+} */
+.plusIcon {
+  /* border-bottom: 2px solid #ac8159;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  transition: 200ms; */
+}
+.plusIcon:hover {
+  /* border-bottom: 2px groove white;
+  transition: 200ms; */
+}
+.minusIcon {
+  /* border-bottom: 2px solid #ac8159;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  transition: 200ms; */
+  /* bottomLeftborderRadius: "5px", */
+}
+.minusIcon:hover {
+  /* border-bottom: 2px groove white;
+  transition: 200ms; */
+}
+
+/* .RightArrowForAdressForm:hover {
+  fill: white;
+} */
